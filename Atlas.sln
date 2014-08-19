@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlas", "src\Atlas\Atlas.csproj", "{7EBED907-17F2-4CF0-9937-6E12816092AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A4FFA027-8C3A-43B7-8CF6-53CD24FBC5CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlas.Tests", "test\Atlas.Tests\Atlas.Tests.csproj", "{07310F55-C672-4A25-8449-AAECE33D7D5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EBED907-17F2-4CF0-9937-6E12816092AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EBED907-17F2-4CF0-9937-6E12816092AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EBED907-17F2-4CF0-9937-6E12816092AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EBED907-17F2-4CF0-9937-6E12816092AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07310F55-C672-4A25-8449-AAECE33D7D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07310F55-C672-4A25-8449-AAECE33D7D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07310F55-C672-4A25-8449-AAECE33D7D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07310F55-C672-4A25-8449-AAECE33D7D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07310F55-C672-4A25-8449-AAECE33D7D5C} = {A4FFA027-8C3A-43B7-8CF6-53CD24FBC5CD}
+	EndGlobalSection
+EndGlobal
