@@ -42,6 +42,7 @@
     <Compile Include="AssemblyExtensions.cs" />
     <Compile Include="AssemblyResourceManager.cs" />
     <Compile Include="County.cs" />
+    <Compile Include="CountyZipCode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="State.cs" />
     <Compile Include="GeographyProvider.cs" />

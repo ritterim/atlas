@@ -22,6 +22,11 @@ namespace Ritter.Atlas
             return ParseResource<County>("Ritter.Atlas.Resources.Counties.csv");
         }
 
+        public IEnumerable<CountyZipCode> CountyZipCodes()
+        {
+            return ParseResource<CountyZipCode>("Ritter.Atlas.Resources.CountyZipCodes.csv");
+        }
+
         public IEnumerable<ZipCode> ZipCodes()
         {
             return ParseResource<ZipCode>("Ritter.Atlas.Resources.ZipCodes.csv");

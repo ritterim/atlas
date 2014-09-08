@@ -17,6 +17,11 @@ namespace Ritter.Atlas
             return Provider.Counties();
         }
 
+        public static IEnumerable<CountyZipCode> CountyZipCodes()
+        {
+            return Provider.CountyZipCodes();
+        }
+
         public static IEnumerable<ZipCode> ZipCodes()
         {
             return Provider.ZipCodes();
