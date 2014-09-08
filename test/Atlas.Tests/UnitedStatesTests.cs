@@ -17,6 +17,12 @@ namespace Ritter.Atlas
         }
 
         [Fact]
+        public void CountyZipCodes_IsNotEmpty()
+        {
+            Assert.NotEmpty(UnitedStates.CountyZipCodes());
+        }
+
+        [Fact]
         public void ZipCodes_IsNotEmpty()
         {
             Assert.NotEmpty(UnitedStates.ZipCodes());
