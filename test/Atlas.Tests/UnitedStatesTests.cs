@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using System.Linq;
+using Xunit;
 
 namespace Ritter.Atlas
 {
@@ -26,6 +27,18 @@ namespace Ritter.Atlas
         public void ZipCodes_IsNotEmpty()
         {
             Assert.NotEmpty(UnitedStates.ZipCodes());
+        }
+
+        [Fact]
+        public void ZipCodes_AllZipCodesAreFiveCharacters()
+        {
+            Assert.True(UnitedStates.ZipCodes().All(x => x.Id.Length == 5));
+        }
+
+        [Fact]
+        public void CountyZipCodes_AllZipCodesAreFiveCharacters()
+        {
+            Assert.True(UnitedStates.CountyZipCodes().All(x => x.ZipCode.Length == 5));
         }
     }
 }

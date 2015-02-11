@@ -1,63 +1,63 @@
-﻿"Abbreviation","Name","AnsiCode","FipsCode"
-"AA","Armed Forces Americas","",""
-"AE","Armed Forces Africa","",""
-"AK","Alaska","02","02"
-"AL","Alabama","01","01"
-"AP","Armed Forces Pacific","",""
-"AR","Arkansas","05","05"
-"AS","American Samoa","60","60"
-"AZ","Arizona","04","04"
-"CA","California","06","06"
-"CO","Colorado","08","08"
-"CT","Connecticut","09","09"
-"DC","District Of Columbia","11","11"
-"DE","Delaware","10","10"
-"FL","Florida","12","12"
-"FM","Federated States Of Micronesia","64","64"
-"GA","Georgia","13","13"
-"GU","Guam","66","66"
-"HI","Hawaii","15","15"
-"IA","Iowa","19","19"
-"ID","Idaho","16","16"
-"IL","Illinois","17","17"
-"IN","Indiana","18","18"
-"KS","Kansas","20","20"
-"KY","Kentucky","21","21"
-"LA","Louisiana","22","22"
-"MA","Massachusetts","25","25"
-"MD","Maryland","24","24"
-"ME","Maine","23","23"
-"MH","Marshall Islands","68","68"
-"MI","Michigan","26","26"
-"MN","Minnesota","27","27"
-"MO","Missouri","29","29"
-"MP","Northern Mariana Islands","69","69"
-"MS","Mississippi","28","28"
-"MT","Montana","30","30"
-"NC","North Carolina","37","37"
-"ND","North Dakota","38","38"
-"NE","Nebraska","31","31"
-"NH","New Hampshire","33","33"
-"NJ","New Jersey","34","34"
-"NM","New Mexico","35","35"
-"NV","Nevada","32","32"
-"NY","New York","36","36"
-"OH","Ohio","39","39"
-"OK","Oklahoma","40","40"
-"OR","Oregon","41","41"
-"PA","Pennsylvania","42","42"
-"PR","Puerto Rico","72","72"
-"PW","Palau","70","70"
-"RI","Rhode Island","44","44"
-"SC","South Carolina","45","45"
-"SD","South Dakota","46","46"
-"TN","Tennessee","47","47"
-"TX","Texas","48","48"
-"UT","Utah","49","49"
-"VA","Virginia","51","51"
-"VI","Virgin Islands","78","78"
-"VT","Vermont","50","50"
-"WA","Washington","53","53"
-"WI","Wisconsin","55","55"
-"WV","West Virginia","54","54"
-"WY","Wyoming","56","56"
+Abbreviation,Name,AnsiCode,FipsCode
+AA,,,  
+AE,,,  
+AK,Alaska,02,02
+AL,Alabama,01,01
+AP,,,  
+AR,Arkansas,05,05
+AS,American Samoa,60,60
+AZ,Arizona,04,04
+CA,California,06,06
+CO,Colorado,08,08
+CT,Connecticut,09,09
+DC,District of Columbia,11,11
+DE,Delaware,10,10
+FL,Florida,12,12
+FM,Federated States of Micronesia,64,64
+GA,Georgia,13,13
+GU,Guam,66,66
+HI,Hawaii,15,15
+IA,Iowa,19,19
+ID,Idaho,16,16
+IL,Illinois,17,17
+IN,Indiana,18,18
+KS,Kansas,20,20
+KY,Kentucky,21,21
+LA,Louisiana,22,22
+MA,Massachusetts,25,25
+MD,Maryland,24,24
+ME,Maine,23,23
+MH,Marshall Islands,68,68
+MI,Michigan,26,26
+MN,Minnesota,27,27
+MO,Missouri,29,29
+MP,Northern Mariana Islands,69,69
+MS,Mississippi,28,28
+MT,Montana,30,30
+NC,North Carolina,37,37
+ND,North Dakota,38,38
+NE,Nebraska,31,31
+NH,New Hampshire,33,33
+NJ,New Jersey,34,34
+NM,New Mexico,35,35
+NV,Nevada,32,32
+NY,New York,36,36
+OH,Ohio,39,39
+OK,Oklahoma,40,40
+OR,Oregon,41,41
+PA,Pennsylvania,42,42
+PR,Puerto Rico,72,72
+PW,Palau,70,70
+RI,Rhode Island,44,44
+SC,South Carolina,45,45
+SD,South Dakota,46,46
+TN,Tennessee,47,47
+TX,Texas,48,48
+UT,Utah,49,49
+VA,Virginia,51,51
+VI,Virgin Islands,78,78
+VT,Vermont,50,50
+WA,Washington,53,53
+WI,Wisconsin,55,55
+WV,West Virginia,54,54
+WY,Wyoming,56,56

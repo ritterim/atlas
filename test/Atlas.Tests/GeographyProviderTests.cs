@@ -9,12 +9,12 @@ namespace Ritter.Atlas
     public class GeographyProviderTests
     {
         private const string ZipCodeHeader =
-            "\"StateCode\",\"Id\",\"Latitude\",\"Longitude\",\"SCFCode\",\"TimeZone\"";
+            "StateCode,Id,Latitude,Longitude,Elevation,TimeZone,PrimaryCity";
 
         [Fact]
         public void ZipCodes_MapsPropertiesCorrectly()
         {
-            var data = ZipCodeHeader + Environment.NewLine + "\"AK\",\"99678\",\"59.17348\",\"-160.71555\",\"996\",\"-9\"";
+            var data = ZipCodeHeader + Environment.NewLine + "NY,00501,40.815400,-73.045600,25,5 ,HOLTSVILLE";
 
             var fakeAssembly = new FakeAssembly();
             fakeAssembly.Resources.Add("Ritter.Atlas.Resources.ZipCodes.csv", new MemoryStream(Encoding.UTF8.GetBytes(data)));
@@ -25,7 +25,12 @@ namespace Ritter.Atlas
 
             var actual = target.ZipCodes().Single();
 
-            Assert.Equal("99678", actual.Id);
+            Assert.Equal("00501", actual.Id);
+            Assert.Equal("NY", actual.StateCode);
+            Assert.Equal(40.815400f, actual.Latitude);
+            Assert.Equal(-73.045600f, actual.Longitude);
+            Assert.Equal(5, actual.TimeZone);
+            Assert.Equal("HOLTSVILLE", actual.PrimaryCity);
         }
     }
 }
