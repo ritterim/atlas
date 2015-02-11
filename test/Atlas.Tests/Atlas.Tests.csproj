@@ -47,6 +47,7 @@
     <Compile Include="UnitedStatesTests.cs" />
     <Compile Include="FakeAssembly.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ZipCodeTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
