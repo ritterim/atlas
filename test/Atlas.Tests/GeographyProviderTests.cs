@@ -14,7 +14,7 @@ namespace Ritter.Atlas
         [Fact]
         public void ZipCodes_MapsPropertiesCorrectly()
         {
-            var data = ZipCodeHeader + Environment.NewLine + "NY,00501,40.815400,-73.045600,25,5 ,HOLTSVILLE";
+            var data = ZipCodeHeader + Environment.NewLine + "NY,00501,40.815400,-73.045600,25,-5 ,HOLTSVILLE";
 
             var fakeAssembly = new FakeAssembly();
             fakeAssembly.Resources.Add("Ritter.Atlas.Resources.ZipCodes.csv", new MemoryStream(Encoding.UTF8.GetBytes(data)));
@@ -29,7 +29,7 @@ namespace Ritter.Atlas
             Assert.Equal("NY", actual.StateCode);
             Assert.Equal(40.815400f, actual.Latitude);
             Assert.Equal(-73.045600f, actual.Longitude);
-            Assert.Equal(5, actual.TimeZone);
+            Assert.Equal(-5, actual.TimeZone);
             Assert.Equal("HOLTSVILLE", actual.PrimaryCity);
         }
     }
